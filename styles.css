@@ -19,30 +19,38 @@ body {
 }
 
 .green {
-	background-color: #59FC00;
+	background-color: #000000;
 }
 
 .light_blue {
-	background-color: #00FCF7;
+	background-color: #000000;
 }
 
 .purple {
-	background-color: #FC00F0;
+	background-color: #000000;
 }
 
 .red {
-	background-color: #FC0000;
+	background-color: #000000;
 }
 
 .orange {
-	background-color: #F4FC00;
+	background-color: #000000;
 }
 
 .opaque {
-	content:url(https://pbs.twimg.com/profile_images/1590346219/spider_400x400.jpg);
+	content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVd1oYZ88czepgjpDHposLmvPDhwP5r7MdTyiCXfU3NzcIbQH-);
 	
 }
 
 .opaque1 {
-	background-image :url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSExIscJvw8U59D1UEwvcxQIQeegw4FcWLanfWSZeyw_ks4-lbc);
+	background-image :url(http://www.aquariumfish.net/images_01/neon_tetra_110601a4_w0640.jpg);
+}
+
+.opaque2 {
+	background-image :url(https://a-z-animals.com/media/animals/images/original/puffer_fish7.jpg);
+}
+
+.opaque3 {
+	background-image :url(http://www.aquariumfish.net/images_01/hf_sunset_wag_100527a2_w0480.jpg);
 }
