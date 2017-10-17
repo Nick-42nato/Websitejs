@@ -3165,6 +3165,14 @@ iframe{
 	background-color: #000000;
 }
 
+.orange {
+	background-color: #000000;
+}
+
+.pink {
+	background-color: #000000;
+}
+
 .opaque {
 	content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVd1oYZ88czepgjpDHposLmvPDhwP5r7MdTyiCXfU3NzcIbQH-);
 	
@@ -3180,4 +3188,12 @@ iframe{
 
 .opaque3 {
 	background-image :url(http://www.aquariumfish.net/images_01/hf_sunset_wag_100527a2_w0480.jpg);
+}
+
+.opaque4 {
+	background-image :url();
+}
+
+.opaque5 {
+	background-image :url();
 }
