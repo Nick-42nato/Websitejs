@@ -3144,8 +3144,8 @@ iframe{
 }
 
 .box {
-	height: 30vw;
-	width: 30vw;
+	height: 10vw;
+	width: 10vw;
 	margin: 5px;
 }
 
@@ -3162,10 +3162,6 @@ iframe{
 }
 
 .red {
-	background-color: #000000;
-}
-
-.orange {
 	background-color: #000000;
 }
 
