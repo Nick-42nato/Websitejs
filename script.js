@@ -17,3 +17,7 @@ function makeOpaque3(e){
 function makeOpaque4(e){
 	e.classList.toggle("opaque4");
 }
+
+function makeOpaque5(e){
+	e.classList.toggle("opaque5");
+}
