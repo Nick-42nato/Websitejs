@@ -3180,22 +3180,32 @@ iframe{
 
 .opaque1 {
 	background-image :url(http://www.aquariumfish.net/images_01/neon_tetra_110601a4_w0640.jpg);
+	width: 10vw;
+	height: 10vh;
 }
 
 .opaque2 {
 	background-image :url(https://a-z-animals.com/media/animals/images/original/puffer_fish7.jpg);
+	width: 10vw;
+	height: 10vh;
 }
 
 .opaque3 {
 	background-image :url(http://www.aquariumfish.net/images_01/hf_sunset_wag_100527a2_w0480.jpg);
+	width: 10vw;
+	height: 10vh;
 }
 
 .opaque4 {
 	background-image :url(http://www.animalspot.net/wp-content/uploads/2012/03/Crystal-Red-Shrimp.jpg);
+	width: 10vw;
+	height: 10vh;
 }
 
 .opaque5 {
 	background-image :url(https://images-na.ssl-images-amazon.com/images/I/41gX1iiZd3L._SX300_.jpg);
+	width: 10vw;
+	height: 10vh;
 }
 
 div {
