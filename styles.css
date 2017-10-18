@@ -3197,3 +3197,7 @@ iframe{
 .opaque5 {
 	background-image :url(https://images-na.ssl-images-amazon.com/images/I/41gX1iiZd3L._SX300_.jpg);
 }
+
+div {
+	text-color: #FFFFFF;
+}
