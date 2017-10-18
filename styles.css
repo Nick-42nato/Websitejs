@@ -38,8 +38,8 @@ z-index: 20;
 /* ...............< fish tank  >.................. */
 .fishtank_wrap{
 border:1px solid #191919;
-width:1000px;
-height:560px;
+width:850px;
+height:400px;
 margin:auto;
 margin-top:50px;
 position:relative;
@@ -3207,5 +3207,5 @@ iframe{
 }
 
 div {
-	text-color: #FFFFFF;
+	color: #FFFFFF;
 }
