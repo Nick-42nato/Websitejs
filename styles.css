@@ -38,8 +38,8 @@ z-index: 20;
 /* ...............< fish tank  >.................. */
 .fishtank_wrap{
 border:1px solid #191919;
-width:850px;
-height:400px;
+width:1000px;
+height:560px;
 margin:auto;
 margin-top:50px;
 position:relative;
@@ -68,7 +68,7 @@ height: 400px;
 width: 850px;
 }
 .ground{
-background-color: #B19975;
+background-color: #FFC251;
 border-bottom: 20px solid #655848;
 height: 50px;
 position: absolute;
@@ -379,7 +379,7 @@ transform: rotate(-15deg);
 -webkit-transform: rotate(-15deg);
 -o-transform: rotate(-15deg);
 -ms-transform: rotate(-15deg);
-background-color: #3D8F39;
+background-color: #0B9E04;
 border: 1px solid #252424;
 border-radius: 260px 30px 260px 17px;
 -moz-border-radius: 260px 30px 260px 17px;
