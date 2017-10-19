@@ -50,21 +50,15 @@
 }
 
 .opaque3 {
-	background-image :url();
-	width: 10vw;
-	height: 10vh;
+	background-image :url(https://user-images.githubusercontent.com/25018733/31794133-0da4fd40-b4d6-11e7-8522-f9f15e3b5d8f.png);
 }
 
 .opaque4 {
 	background-image :url();
-	width: 10vw;
-	height: 10vh;
 }
 
 .opaque5 {
 	background-image :url();
-	width: 10vw;
-	height: 10vh;
 }
 
 div {
