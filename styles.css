@@ -1,3 +1,79 @@
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+}
+
+.box {
+	height: 10vw;
+	width: 10vw;
+	margin: 5px;
+}
+
+.green {
+	background-color: #000000;
+}
+
+.light_blue {
+	background-color: #000000;
+}
+
+.purple {
+	background-color: #000000;
+}
+
+.red {
+	background-color: #000000;
+}
+
+.orange {
+	background-color: #000000;
+}
+
+.pink {
+	background-color: #000000;
+}
+
+.opaque {
+	content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVd1oYZ88czepgjpDHposLmvPDhwP5r7MdTyiCXfU3NzcIbQH-);
+	
+}
+
+.opaque1 {
+	background-image :url(http://www.aquariumfish.net/images_01/columbian_tetra_111106a3_w0480.jpg);
+}
+
+.opaque2 {
+	background-image :url(https://a-z-animals.com/media/animals/images/original/puffer_fish7.jpg);
+	width: 10%;
+	height: 10%;
+}
+
+.opaque3 {
+	background-image :url(http://www.aquariumfish.net/images_01/hf_sunset_wag_100527a2_w0480.jpg);
+	width: 10vw;
+	height: 10vh;
+}
+
+.opaque4 {
+	background-image :url(http://www.animalspot.net/wp-content/uploads/2012/03/Crystal-Red-Shrimp.jpg);
+	width: 10vw;
+	height: 10vh;
+}
+
+.opaque5 {
+	background-image :url(https://images-na.ssl-images-amazon.com/images/I/41gX1iiZd3L._SX300_.jpg);
+	width: 10vw;
+	height: 10vh;
+}
+
+div {
+	color: #FFFFFF;
+}
+
+
 body {
 	width: 100vw;
 	height: 100vh;
@@ -6,6 +82,8 @@ body {
 body{
 background-color: #393939;
 margin:0px;
+width: 100vw;
+height: 100vh;
 }
 /* start of globals */
 a{
@@ -3135,77 +3213,3 @@ iframe{
   display: none;
 }
 
-.flex-container {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	height: inherit;
-}
-
-.box {
-	height: 10vw;
-	width: 10vw;
-	margin: 5px;
-}
-
-.green {
-	background-color: #000000;
-}
-
-.light_blue {
-	background-color: #000000;
-}
-
-.purple {
-	background-color: #000000;
-}
-
-.red {
-	background-color: #000000;
-}
-
-.orange {
-	background-color: #000000;
-}
-
-.pink {
-	background-color: #000000;
-}
-
-.opaque {
-	content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVd1oYZ88czepgjpDHposLmvPDhwP5r7MdTyiCXfU3NzcIbQH-);
-	
-}
-
-.opaque1 {
-	background-image :url(http://www.aquariumfish.net/images_01/columbian_tetra_111106a3_w0480.jpg);
-}
-
-.opaque2 {
-	background-image :url(https://a-z-animals.com/media/animals/images/original/puffer_fish7.jpg);
-	width: 10%;
-	height: 10%;
-}
-
-.opaque3 {
-	background-image :url(http://www.aquariumfish.net/images_01/hf_sunset_wag_100527a2_w0480.jpg);
-	width: 10vw;
-	height: 10vh;
-}
-
-.opaque4 {
-	background-image :url(http://www.animalspot.net/wp-content/uploads/2012/03/Crystal-Red-Shrimp.jpg);
-	width: 10vw;
-	height: 10vh;
-}
-
-.opaque5 {
-	background-image :url(https://images-na.ssl-images-amazon.com/images/I/41gX1iiZd3L._SX300_.jpg);
-	width: 10vw;
-	height: 10vh;
-}
-
-div {
-	color: #FFFFFF;
-}
