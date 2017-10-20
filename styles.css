@@ -3188,7 +3188,7 @@ width:80px;
 /*table*/
 .table{
 background-color: #FFFFFF;
-border-bottom: 22px double #433A32;
+border-bottom: 22px double #000000;
 box-shadow: 0 11px 60px #060505 inset;
 -moz-box-shadow: 0 11px 60px #060505 inset;
 -webkit-box-shadow: 0 11px 60px #060505 inset;
