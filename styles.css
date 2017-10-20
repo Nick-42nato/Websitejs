@@ -85,6 +85,11 @@ h1{
 text-align:center;
 color: #FFFFFF;
 }
+h2{
+text-align:center;
+color: #FFFFFF;
+text-decoration: underline;	
+}
 /* end of globals */
 /* start of wrap */
 #wrap{
