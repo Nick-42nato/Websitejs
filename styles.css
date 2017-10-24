@@ -6,6 +6,10 @@
 	height: inherit;
 }
 
+.invisible {
+	visibility: hidden;
+}
+
 .box {
 	height: 10vw;
 	width: 10vw;
@@ -38,6 +42,7 @@
 
 .opaque {
 	content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVd1oYZ88czepgjpDHposLmvPDhwP5r7MdTyiCXfU3NzcIbQH-);
+	visibility: visible;
 }
 
 .opaque1 {
