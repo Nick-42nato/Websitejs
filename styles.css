@@ -67,58 +67,10 @@ div {
 	color: #FFFFFF;
 }
 
-/* Dropdown Button */
-.dropbtn {
-    background-color: #FFFFFF;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    visibility: hidden;
-    position: relative;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160vw;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-
-}
 body{
 background-color: #393939;
 margin:0px;
-width: 100vw;
-height: 100vh;
 }
 /* start of globals */
 a{
@@ -127,18 +79,12 @@ color:cornflowerblue;
 }
 h1{
 text-align:center;
-color: #FFFFFF;
-}
-h2{
-text-align:center;
-color: #FFFFFF;
-text-decoration: underline;
-size: 25px;
+color: #717273;
 }
 /* end of globals */
 /* start of wrap */
 #wrap{
-width:970vw;
+width:970px;
 margin:auto;
 font-family:tahoma,ariel;
 position:relative;
@@ -149,15 +95,15 @@ clear:both;
 /* end of wrap */
 .window{
 /*border:1px solid #191919;*/
-width:950vw;
+width:950px;
 height:500px;
 position:relative;
 z-index: 20;
 }
 /* ...............< fish tank  >.................. */
 .fishtank_wrap{
-border:1px solid #000000;
-width:850vw;
+border:1px solid #191919;
+width:850px;
 height:400px;
 margin:auto;
 margin-top:50px;
@@ -174,7 +120,7 @@ border-bottom: 1px solid #191919;
 height: 349px;
 position: absolute;
 top: 30px;
-width: 850vw;
+width: 850px;
 z-index: 160;
 }
 .fishtank{
@@ -184,15 +130,15 @@ box-shadow: 0 -10px 24px #817F7F inset, 0 -100px 134px #DCDCDC inset;
 -o-box-shadow: 0 -10px 24px #817F7F inset, 0 -100px 134px #DCDCDC inset;
 -ms-box-shadow: 0 -10px 24px #817F7F inset, 0 -100px 134px #DCDCDC inset;
 height: 400px;
-width: 850vw;
+width: 850px;
 }
 .ground{
-background-color: #FFC251;
+background-color: #B19975;
 border-bottom: 20px solid #655848;
 height: 50px;
 position: absolute;
 top: 330px;
-width: 850vw;
+width: 850px;
 z-index: 25;
 box-shadow: 0 13px 19px #3A251D inset;
 -moz-box-shadow: 0 13px 19px #3A251D inset;
@@ -213,7 +159,7 @@ height: 115px;
 left: 485px;
 position: absolute;
 top: 238px;
-width: 138vw;
+width: 138px;
 box-shadow: 3px -6px 2px #292828 inset, -13px -34px 49px #292828 inset;
 -moz-box-shadow: 3px -6px 2px #292828 inset, -13px -34px 49px #292828 inset;
 -webkit-box-shadow: 3px -6px 2px #292828 inset, -13px -34px 49px #292828 inset;
@@ -233,7 +179,7 @@ height: 115px;
 left: 566px;
 position: absolute;
 top: 238px;
-width: 128vw;
+width: 128px;
 box-shadow: 11px 14px 23px #171717, -83px -37px 25px #292828 inset;
 -moz-box-shadow: 11px 14px 23px #171717, -83px -37px 25px #292828 inset;
 -webkit-box-shadow: 11px 14px 23px #171717, -83px -37px 25px #292828 inset;
@@ -259,7 +205,7 @@ height: 60px;
 left: 34px;
 position: absolute;
 top: 51px;
-width: 165vw;
+width: 165px;
 border: 1px solid #252424;
 }
 .rock_3{
@@ -274,7 +220,7 @@ height: 52px;
 left: 615px;
 position: absolute;
 top: 323px;
-width: 97vw;
+width: 97px;
 z-index: 50;
 box-shadow: 1px -2px 8px #171717, 1px -18px 18px #292828 inset;
 -moz-box-shadow: 1px -2px 8px #171717, 1px -18px 18px #292828 inset;
@@ -300,7 +246,7 @@ height: 41px;
 left: -50px;
 position: absolute;
 top: 9px;
-width: 80vw;
+width: 80px;
 box-shadow: -1px 4px 8px #171717, 4px 3px 18px #292828 inset;
 -moz-box-shadow: -1px 4px 8px #171717, 4px 3px 18px #292828 inset;
 -webkit-box-shadow: -1px 4px 8px #171717, 4px 3px 18px #292828 inset;
@@ -330,7 +276,7 @@ height: 48px;
 left: 70px;
 position: absolute;
 top: -12px;
-width: 120vw;
+width: 120px;
 }
 
 .rock_4{
@@ -355,7 +301,7 @@ height: 252px;
 left: 227px;
 position: absolute;
 top: 110px;
-width: 107vw;
+width: 107px;
 border: 1px solid #252424;
 z-index:100;
 }
@@ -382,7 +328,7 @@ height: 44px;
 left: 7px;
 position: absolute;
 top: 91px;
-width: 228vw;
+width: 228px;
 border: 1px solid #252424;
 }
 .rock_4:after{
@@ -403,7 +349,7 @@ height: 63px;
     left: 232px;
     position: absolute;
     top: 128px;
-    width: 87vw;
+    width: 87px;
 border: 1px solid #252424;
 }
 
@@ -430,7 +376,7 @@ box-shadow:3px 2px 7px #171717, -14px -18px 30px #292828 inset;
     left: 95px;
     position: absolute;
     top: 290px;
-    width: 77vw;
+    width: 77px;
     z-index: 100;
 }
 .rock_5:before{
@@ -457,7 +403,7 @@ content: "";
     left: -40px;
     position: absolute;
     top: 5px;
-    width: 82vw;
+    width: 82px;
 }
 .rock_5:after{
 transform: skewX(-6deg) rotate(114deg);
@@ -498,7 +444,7 @@ transform: rotate(-15deg);
 -webkit-transform: rotate(-15deg);
 -o-transform: rotate(-15deg);
 -ms-transform: rotate(-15deg);
-background-color: #0B9E04;
+background-color: #3D8F39;
 border: 1px solid #252424;
 border-radius: 260px 30px 260px 17px;
 -moz-border-radius: 260px 30px 260px 17px;
@@ -515,7 +461,7 @@ height: 214px;
 left: -20px;
 position: absolute;
 top: 150px;
-width: 43vw;
+width: 43px;
 }
 
 .plant_1:after{
@@ -531,10 +477,10 @@ height: 179px;
 left: 20px;
 position: absolute;
 top: 19px;
-width: 2vw;
+width: 2px;
 }
 .plant_2{
-background-color: #0B9E04;
+background-color: #33852F;
 border: 1px solid #252424;
 border-radius: 260px 30px 260px 17px;
 -moz-border-radius: 260px 30px 260px 17px;
@@ -551,7 +497,7 @@ height: 176px;
 left: 42px;
 position: absolute;
 top: 179px;
-width: 71vw;
+width: 71px;
 }
 .plant_2:after{
 border: 1px solid #252424;
@@ -565,11 +511,11 @@ height: 135px;
 left: 29px;
 position: absolute;
 top: 19px;
-width: 2vw;
+width: 2px;
 }
 
 .plant_3{
-background-color: #0B9E04;
+background-color: #33852F;
 border: 1px solid #252424;
 border-radius: 260px 30px 260px 17px;
 -moz-border-radius: 260px 30px 260px 17px;
@@ -586,7 +532,7 @@ height: 153px;
 left: 9px;
 position: absolute;
 top: 203px;
-width: 39vw;
+width: 39px;
 }
 .plant_3:after{
 border: 1px solid #252424;
@@ -600,7 +546,7 @@ height: 112px;
 left: 14px;
 position: absolute;
 top: 19px;
-width: 2vw;
+width: 2px;
 }
 /*plant 2*/
 .plant_2_wrap{
@@ -626,7 +572,7 @@ height: 135px;
 left: -9px;
 position: absolute;
 top: 180px;
-width: 39vw;
+width: 39px;
 }
 .plant_4:after{
 border: 1px solid #252424;
@@ -640,7 +586,7 @@ height: 112px;
 left: 14px;
 position: absolute;
 top: 19px;
-width: 2vw;
+width: 2px;
 }
 .plant_5{
 background-color: #33852F;
@@ -660,7 +606,7 @@ height: 135px;
 left: 39px;
 position: absolute;
 top: 220px;
-width: 39vw;
+width: 39px;
 }
 .plant_5:after{
 border: 1px solid #252424;
@@ -674,7 +620,7 @@ height: 112px;
 left: 14px;
 position: absolute;
 top: 19px;
-width: 2vw;
+width: 2px;
 }
 /**/
 /*start of long plant*/
@@ -689,7 +635,7 @@ left: 468px;
 margin: auto;
 position: absolute;
 top: 41px;
-width: 100vw;
+width: 100px;
 z-index: 98;
 }
 .long_plant{
@@ -703,7 +649,7 @@ left: 400px;
 margin: auto;
 position: absolute;
 top: 56px;
-width: 100vw;
+width: 100px;
 z-index: 25;
 }
 
@@ -717,7 +663,7 @@ border-right: 12px groove green;
 height: 90px;
 position: absolute;
 top: -1px;
-width: 62vw;
+width: 62px;
 }
 .l_plant_1:after{
 transform: rotate(-32deg) skewX(-9deg) skewY(32deg);
@@ -742,7 +688,7 @@ height: 47px;
 left: 25px;
 position: absolute;
 top: 31px;
-width: 25vw;
+width: 25px;
 }
 .l_plant_1:before{
 transform: rotate(16deg) skewX(-9deg) skewY(-32deg);
@@ -767,7 +713,7 @@ height: 43px;
 left: 83px;
 position: absolute;
 top: 8px;
-width: 25vw;
+width: 25px;
 }
 .l_plant_2{
 border-left: 12px ridge green;
@@ -780,7 +726,7 @@ height: 111px;
 left: 24px;
 position: absolute;
 top: 83px;
-width: 70vw;
+width: 70px;
 }
 
 .l_plant_2:after{
@@ -806,7 +752,7 @@ height: 50px;
 left: -46px;
 position: absolute;
 top: 19px;
-width: 25vw;
+width: 25px;
 }
 .l_plant_2:before{
 transform: rotate(16deg) skewX(-9deg) skewY(-32deg);
@@ -814,7 +760,7 @@ transform: rotate(16deg) skewX(-9deg) skewY(-32deg);
 -webkit-transform: rotate(16deg) skewX(-9deg) skewY(-32deg);
 -o-transform: rotate(16deg) skewX(-9deg) skewY(-32deg);
 -ms-transform: rotate(16deg) skewX(-9deg) skewY(-32deg);
-background-color: #487E0D;
+background-color: #1E4E1D;
 border-radius: 40px 40px 80px 8px;
 -moz-border-radius: 40px 40px 80px 8px;
 -webkit-border-radius: 40px 40px 80px 8px;
@@ -831,7 +777,7 @@ height: 58px;
 left: 14px;
 position: absolute;
 top: 32px;
-width: 26vw;
+width: 26px;
 }
 .l_plant_3{
 border-radius: 40px 40px 40px 40px;
@@ -843,7 +789,7 @@ border-right: 12px groove green;
 height: 111px;
 position: absolute;
 top: 187px;
-width: 62vw;
+width: 62px;
 }
 
 .l_plant_3:after{
@@ -869,7 +815,7 @@ height: 47px;
 left: 30px;
 position: absolute;
 top: 23px;
-width: 25vw;
+width: 25px;
 }
 .l_plant_3:before{
 transform: rotate(16deg) skewX(-9deg) skewY(-32deg);
@@ -894,7 +840,7 @@ height: 55px;
 left: 82px;
 position: absolute;
 top: -5px;
-width: 28vw;
+width: 28px;
 }
 /*end of long plant*/
 
@@ -903,7 +849,7 @@ height: 299px;
 left: 7px;
 position: absolute;
 top: 30px;
-width: 200vw;
+width: 200px;
 }
 .bubbles{
 background-color: rgba(255, 255, 255, 0.16);
@@ -917,7 +863,7 @@ height: 20px;
 left: 33px;
 position: absolute;
 top: 260px;
-width: 20vw;
+width: 20px;
 }
 .b2{
 left: 50px;
@@ -942,7 +888,7 @@ height: 230px;
 left: 200px;
 position: absolute;
 top: 105px;
-width: 290vw;
+width: 290px;
 z-index: 90;
 }
 .fred{
@@ -974,7 +920,7 @@ box-shadow: 6px -12px 15px #3A2104 inset, -2px -3px 4px #281602 inset;
 height: 72px;
 position: absolute;
 top: 60px;
-width: 92vw;
+width: 92px;
 }
 .eye{
 transform: rotate(50deg);
@@ -3237,8 +3183,8 @@ width:80px;
 /*end of bubble animations*/
 /*table*/
 .table{
-background-color: #FFFFFF;
-border-bottom: 22px double #000000;
+background-color: #282320;
+border-bottom: 22px double #433A32;
 box-shadow: 0 11px 60px #060505 inset;
 -moz-box-shadow: 0 11px 60px #060505 inset;
 -webkit-box-shadow: 0 11px 60px #060505 inset;
@@ -3249,8 +3195,7 @@ margin-top: -180px;
 z-index: 2;
 }
 iframe{
-  width: 1vw;
+  width: 1px;
   height: 1px;
   display: none;
 }
-
