@@ -1,7 +1,3 @@
-@media screen and (min-width: 800px) {
-    
-}
-
 .flex-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -97,7 +93,7 @@ div {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 160vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -117,10 +113,6 @@ div {
 .show {display:block;}
 
 
-body {
-	width: 100vw;
-	height: 100vh;
-	margin: 0;
 }
 body{
 background-color: #393939;
@@ -146,7 +138,7 @@ size: 25px;
 /* end of globals */
 /* start of wrap */
 #wrap{
-width:970px;
+width:970vw;
 margin:auto;
 font-family:tahoma,ariel;
 position:relative;
@@ -157,7 +149,7 @@ clear:both;
 /* end of wrap */
 .window{
 /*border:1px solid #191919;*/
-width:950px;
+width:950vw;
 height:500px;
 position:relative;
 z-index: 20;
@@ -165,7 +157,7 @@ z-index: 20;
 /* ...............< fish tank  >.................. */
 .fishtank_wrap{
 border:1px solid #000000;
-width:850px;
+width:850vw;
 height:400px;
 margin:auto;
 margin-top:50px;
@@ -182,7 +174,7 @@ border-bottom: 1px solid #191919;
 height: 349px;
 position: absolute;
 top: 30px;
-width: 850px;
+width: 850vw;
 z-index: 160;
 }
 .fishtank{
@@ -192,7 +184,7 @@ box-shadow: 0 -10px 24px #817F7F inset, 0 -100px 134px #DCDCDC inset;
 -o-box-shadow: 0 -10px 24px #817F7F inset, 0 -100px 134px #DCDCDC inset;
 -ms-box-shadow: 0 -10px 24px #817F7F inset, 0 -100px 134px #DCDCDC inset;
 height: 400px;
-width: 850px;
+width: 850vw;
 }
 .ground{
 background-color: #FFC251;
@@ -200,7 +192,7 @@ border-bottom: 20px solid #655848;
 height: 50px;
 position: absolute;
 top: 330px;
-width: 850px;
+width: 850vw;
 z-index: 25;
 box-shadow: 0 13px 19px #3A251D inset;
 -moz-box-shadow: 0 13px 19px #3A251D inset;
@@ -221,7 +213,7 @@ height: 115px;
 left: 485px;
 position: absolute;
 top: 238px;
-width: 138px;
+width: 138vw;
 box-shadow: 3px -6px 2px #292828 inset, -13px -34px 49px #292828 inset;
 -moz-box-shadow: 3px -6px 2px #292828 inset, -13px -34px 49px #292828 inset;
 -webkit-box-shadow: 3px -6px 2px #292828 inset, -13px -34px 49px #292828 inset;
@@ -241,7 +233,7 @@ height: 115px;
 left: 566px;
 position: absolute;
 top: 238px;
-width: 128px;
+width: 128vw;
 box-shadow: 11px 14px 23px #171717, -83px -37px 25px #292828 inset;
 -moz-box-shadow: 11px 14px 23px #171717, -83px -37px 25px #292828 inset;
 -webkit-box-shadow: 11px 14px 23px #171717, -83px -37px 25px #292828 inset;
@@ -267,7 +259,7 @@ height: 60px;
 left: 34px;
 position: absolute;
 top: 51px;
-width: 165px;
+width: 165vw;
 border: 1px solid #252424;
 }
 .rock_3{
@@ -282,7 +274,7 @@ height: 52px;
 left: 615px;
 position: absolute;
 top: 323px;
-width: 97px;
+width: 97vw;
 z-index: 50;
 box-shadow: 1px -2px 8px #171717, 1px -18px 18px #292828 inset;
 -moz-box-shadow: 1px -2px 8px #171717, 1px -18px 18px #292828 inset;
@@ -308,7 +300,7 @@ height: 41px;
 left: -50px;
 position: absolute;
 top: 9px;
-width: 80px;
+width: 80vw;
 box-shadow: -1px 4px 8px #171717, 4px 3px 18px #292828 inset;
 -moz-box-shadow: -1px 4px 8px #171717, 4px 3px 18px #292828 inset;
 -webkit-box-shadow: -1px 4px 8px #171717, 4px 3px 18px #292828 inset;
@@ -338,7 +330,7 @@ height: 48px;
 left: 70px;
 position: absolute;
 top: -12px;
-width: 120px;
+width: 120vw;
 }
 
 .rock_4{
@@ -363,7 +355,7 @@ height: 252px;
 left: 227px;
 position: absolute;
 top: 110px;
-width: 107px;
+width: 107vw;
 border: 1px solid #252424;
 z-index:100;
 }
@@ -390,7 +382,7 @@ height: 44px;
 left: 7px;
 position: absolute;
 top: 91px;
-width: 228px;
+width: 228vw;
 border: 1px solid #252424;
 }
 .rock_4:after{
@@ -411,7 +403,7 @@ height: 63px;
     left: 232px;
     position: absolute;
     top: 128px;
-    width: 87px;
+    width: 87vw;
 border: 1px solid #252424;
 }
 
@@ -438,7 +430,7 @@ box-shadow:3px 2px 7px #171717, -14px -18px 30px #292828 inset;
     left: 95px;
     position: absolute;
     top: 290px;
-    width: 77px;
+    width: 77vw;
     z-index: 100;
 }
 .rock_5:before{
@@ -465,7 +457,7 @@ content: "";
     left: -40px;
     position: absolute;
     top: 5px;
-    width: 82px;
+    width: 82vw;
 }
 .rock_5:after{
 transform: skewX(-6deg) rotate(114deg);
@@ -523,7 +515,7 @@ height: 214px;
 left: -20px;
 position: absolute;
 top: 150px;
-width: 43px;
+width: 43vw;
 }
 
 .plant_1:after{
