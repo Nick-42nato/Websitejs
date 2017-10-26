@@ -5,28 +5,6 @@
 	height: inherit;
 }
 
-
-@media screen and (min-width: 900px){
-	.flex-container{
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		justify-content: center;
-		height: inherit;
-	}
-	
-@media screen and (max-width: 890px){
-	.flex-container{
-		display:block;
-		height: inherit;
-		align-items: center;
-		justify-content: center;
-	}
-	
-.invisible {
-	visibility: visible;
-}
-
 .box {
 	height: 10vw;
 	width: 10vw;
