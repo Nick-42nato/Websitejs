@@ -5,6 +5,15 @@
 	height: inherit;
 }
 
+h1{
+	align: center;
+	font-family: Verdana;
+}
+
+h2{
+	align: center;
+}
+
 .box {
 	height: 10vw;
 	width: 10vw;
