@@ -80,11 +80,11 @@ margin:0px;
 }
 
 .fish_body {
-    background: grey; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(grey, #FF1493); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(grey, #FF1493); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(grey, #FF1493); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(grey, #FF1493); /* Standard syntax */
+    background: #FF1493; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF1493, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF1493, grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF1493, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF1493, grey); /* Standard syntax */
 }
 	
 .fish_wrap{
@@ -95,6 +95,7 @@ top: 105px;
 width: 290px;
 z-index: 90;
 }
+
 .fred{
 transform: rotate(-37deg);
 -moz-transform: rotate(-37deg);
@@ -109,7 +110,6 @@ transform: skewX(30deg) skewY(5deg);
 -webkit-transform: skewX(30deg) skewY(5deg);
 -o-transform: skewX(30deg) skewY(5deg);
 -ms-transform: skewX(30deg) skewY(5deg);
-background-color: #FF9800;
 border-radius: 200px 112px 47px 62px;
 -moz-border-radius: 200px 112px 47px 62px;
 -webkit-border-radius: 200px 112px 47px 62px;
