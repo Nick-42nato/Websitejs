@@ -80,11 +80,11 @@ margin:0px;
 }
 
 .fish_body {
-    background: green; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(green, black); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(green, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(green, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(green, black); /* Standard syntax */
+    background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(grey, #FF1493); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, #FF1493); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, #FF1493); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey, #FF1493); /* Standard syntax */
 }
 	
 .fish_wrap{
