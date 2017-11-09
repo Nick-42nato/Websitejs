@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 999px) {
     .box {
-	height: 5vw;
+	height: 5vh;
 	width: 5vw;
 	margin: 5px;
 	}    
@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 998px) {
     .box {
-	height: 5vw;
+	height: 5vh;
 	width: 5vw;
 	margin: 5px;
 	}    
