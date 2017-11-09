@@ -85,19 +85,27 @@ h2{
 }
 
 .opaque2 {
-	background-image :url(https://user-images.githubusercontent.com/25018733/31794075-e92c6ba6-b4d5-11e7-802e-3b6c02c6b4bf.png);
+	background:url(https://user-images.githubusercontent.com/25018733/31794075-e92c6ba6-b4d5-11e7-802e-3b6c02c6b4bf.png);
+	background-size: contain;
+	background-size: cover;
 }
 
 .opaque3 {
-	background-image :url(https://user-images.githubusercontent.com/25018733/31966763-9820d0dc-b8c0-11e7-8827-fe4f5a28ae7b.png);
+	background:url(https://user-images.githubusercontent.com/25018733/31966763-9820d0dc-b8c0-11e7-8827-fe4f5a28ae7b.png);
+	background-size: contain;
+	background-size: cover;
 }
 
 .opaque4 {
-	background-image :url(https://user-images.githubusercontent.com/25018733/31966727-788469aa-b8c0-11e7-800a-aa92a68bb718.png);
+	background:url(https://user-images.githubusercontent.com/25018733/31966727-788469aa-b8c0-11e7-800a-aa92a68bb718.png);
+	background-size: contain;
+	background-size: cover;
 }
 
 .opaque5 {
-	background-image :url(https://user-images.githubusercontent.com/25018733/31794182-34e71550-b4d6-11e7-9255-3d661f032fba.png);
+	background:url(https://user-images.githubusercontent.com/25018733/31794182-34e71550-b4d6-11e7-9255-3d661f032fba.png);
+	background-size: contain;
+	background-size: cover;
 }
 
 div {
