@@ -5,7 +5,7 @@
 	height: inherit;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (max-width: 999px) {
     .box {
 	height: 10px;
 	width: 10px;
