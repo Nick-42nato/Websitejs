@@ -5,6 +5,9 @@
 	height: inherit;
 }
 
+img {
+	content:url(http://www.hottubworks.com/blog/wp-content/uploads/bubbles.gif);
+
 .invisible {
 	visibility: hidden;
 }
