@@ -7,22 +7,16 @@
 
 @media screen and (max-width: 999px) {
     .box {
-	height: 10px;
-	width: 10px;
+	height: 10vh;
+	width: 10vw;
 	margin: 5px;
 	}    
-    .flex-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	height: inherit;
-}
 }
 
 @media screen and (min-width: 998px) {
     .box {
-	height: 5vh;
-	width: 5vw;
+	height: 10vh;
+	width: 10vw;
 	margin: 5px;
 	display: block;
 	}    
