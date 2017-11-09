@@ -5,6 +5,22 @@
 	height: inherit;
 }
 
+@media screen and (min-width: 999px) {
+    .box {
+	height: 10vw;
+	width: 10vw;
+	margin: 5px;
+	}    
+}
+
+@media screen and (min-width: 998px) {
+    .box {
+	height: 10vw;
+	width: 10vw;
+	margin: 5px;
+	}    
+}
+
 img {
 	height: 35%;
 	width: 5%;
