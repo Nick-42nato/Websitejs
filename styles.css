@@ -77,12 +77,12 @@ h2{
 
 .opaque {
 	background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVd1oYZ88czepgjpDHposLmvPDhwP5r7MdTyiCXfU3NzcIbQH-);
-	background-size: contain;
-	background-size: cover;
 }
 
 .opaque1 {
-	background-image :url(https://user-images.githubusercontent.com/25018733/31794043-c891a460-b4d5-11e7-8458-e75576bd69da.png);
+	background:url(https://user-images.githubusercontent.com/25018733/31794043-c891a460-b4d5-11e7-8458-e75576bd69da.png);
+	background-size: contain;
+	background-size: cover;
 }
 
 .opaque2 {
