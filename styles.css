@@ -836,6 +836,45 @@ width: 38px;
 }
 /*end of fish animations*/
 	
+.bubble_wrap{
+height: 299px;
+left: 7px;
+position: absolute;
+top: 30px;
+width: 200px;
+}
+.bubbles{
+background-color: rgba(255, 255, 255, 0.16);
+border: 1px solid #585858;
+border-radius: 100px 100px 100px 100px;
+-moz-border-radius: 100px 100px 100px 100px;
+-webkit-border-radius: 100px 100px 100px 100px;
+-o-border-radius: 100px 100px 100px 100px;
+-ms-border-radius: 100px 100px 100px 100px;
+height: 20px;
+left: 33px;
+position: absolute;
+top: 260px;
+width: 20px;
+}
+.b2{
+left: 50px;
+top: 260px;
+}
+.b3{
+left: 60px;
+top: 260px;
+}
+.b4{
+left: 80px;
+top: 260px;
+}
+.b5{
+left: 90px;
+top: 260px;
+}
+
+
 /*table*/
 .table{
 background-color: #282320;
