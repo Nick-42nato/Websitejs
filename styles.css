@@ -5,7 +5,9 @@
 	height: inherit;
 }
 
-
+img {
+	height: 50%
+}
 
 .invisible {
 	visibility: hidden;
