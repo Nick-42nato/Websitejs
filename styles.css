@@ -75,31 +75,31 @@ h2{
 }
 
 .opaque {
-	background:url(http://petsnmorepinellas.com/wp-content/uploads/2015/08/stack-gallery-fish-guppy-fancy-04-550x380.jpg);
-	background-size: contain;
-	background-size: cover;
-}
-
-.opaque1 {
-	background:url(http://aquaec.net/wp-content/uploads/2012/10/P6090079.jpg);
-	background-size: contain;
-	background-size: cover;
-}
-
-.opaque2 {
-	background:url(https://user-images.githubusercontent.com/25018733/31794075-e92c6ba6-b4d5-11e7-802e-3b6c02c6b4bf.png);
-	background-size: contain;
-	background-size: cover;
-}
-
-.opaque3 {
 	background:url(https://user-images.githubusercontent.com/25018733/31966763-9820d0dc-b8c0-11e7-8827-fe4f5a28ae7b.png);
 	background-size: contain;
 	background-size: cover;
 }
 
-.opaque4 {
+.opaque1 {
 	background:url(http://images-nitrosell-com.akamaized.net/product_images/11/2575/Gold%20Tetra_Rachoviscus%20crassiceps.jpg);
+	background-size: contain;
+	background-size: cover;
+}
+
+.opaque2 {
+	background:url(https://c.76.my/Malaysia/blue-diamond-shrimp-aquafrenzy-1710-12-aquafrenzy@1.jpg);
+	background-size: contain;
+	background-size: cover;
+}
+
+.opaque3 {
+	background:url(https://s-media-cache-ak0.pinimg.com/originals/10/d3/4e/10d34e4446ed85281e0ef1360c3060f8.jpg);
+	background-size: contain;
+	background-size: cover;
+}
+
+.opaque4 {
+	background:url(https://images-na.ssl-images-amazon.com/images/I/91WREA1PnsL._SL1500_.jpg);
 	background-size: contain;
 	background-size: cover;
 }
