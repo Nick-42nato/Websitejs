@@ -5,10 +5,13 @@
 	height: inherit;
 }
 
-@media screen and (max-width: 798px) {
+@media screen and (max-width: 500px) {
     .box {
 	width: 100vw;
 	}    
+	.flex-container {
+		width:100vw;
+	}
 }
 
 img {
@@ -107,7 +110,7 @@ div {
 
 body{
 background-color: #393939;
-margin:0px;
+margin:0;
 border: 30px solid #008BB3;
 }
 
