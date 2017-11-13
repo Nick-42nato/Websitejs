@@ -5,20 +5,10 @@
 	height: inherit;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 798px) {
     .box {
-	height: 10vh;
-	width: 10vw;
-	margin: 5px;
-	}    
-}
-
-@media screen and (min-width: 798px) {
-    .box {
-	height: 50%;
 	width: 50%;
 	margin: 5px;
-	display: block;
 	}    
 }
 
