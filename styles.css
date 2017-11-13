@@ -878,7 +878,8 @@ iframe{
 @media screen and (max-width: 500px) {
     .box {
 	width: 50%;
-	height: 25%;
+	height: 20%;
+	align: center;
 	}    
 	.flex-container {
 		width:100vw;
