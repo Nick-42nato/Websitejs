@@ -5,18 +5,7 @@
 	height: inherit;
 }
 
-.container {
-	display: inline-table;
-}
 
-@media screen and (max-width: 500px) {
-    .box {
-	width: 100vw;
-	}    
-	.flex-container {
-		width:100vw;
-	}
-}
 
 img {
 	height: 35%;
@@ -884,4 +873,13 @@ iframe{
   width: 1px;
   height: 1px;
   display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .box {
+	width: 100vw;
+	}    
+	.flex-container {
+		width:100vw;
+	}
 }
