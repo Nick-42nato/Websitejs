@@ -883,7 +883,13 @@ iframe{
 	.flex-container {
 		width:100vw;
 	}
-	background:url {
+	opaque1 {
+		object-fit: contain;
+	}
+	opaque2 {
+		object-fit: contain;
+	}
+	opaque3 {
 		object-fit: contain;
 	}
 }
