@@ -879,6 +879,7 @@ iframe{
     .box {
 	width: 50%;
 	height: 20%;
+	align: center;
 	}    
 	.flex-container {
 		width:100vw;
