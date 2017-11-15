@@ -23,8 +23,8 @@ function makeOpaque5(e){
 }
 
 function makeHover(e){
-	e.classlist.toggle("hover")
+	e.classlist.toggle("hover");
 }
 function makeNormal(e){
-	e.classlist.toggle("hover")
+	e.classlist.toggle("hover");
 }
