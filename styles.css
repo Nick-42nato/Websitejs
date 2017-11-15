@@ -96,7 +96,7 @@ h2{
 }
 
 .hover{
-	box-shadow:4px 3px 3px #fff;
+	box-shadow: 0 0 20px #000;
 }
 
 div {
@@ -104,6 +104,7 @@ div {
 	display: block;
 }
 
+4px 3px 3px #fff;
 
 body{
 background-color: #393939;
