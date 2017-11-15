@@ -22,4 +22,9 @@ function makeOpaque5(e){
 	e.classList.toggle("opaque5");
 }
 
-
+function makeHover(e){
+	e.classlist.toggle("hover")
+}
+function makeNormal(e){
+	e.classlist.toggle("hover")
+}
