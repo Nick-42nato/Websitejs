@@ -40,8 +40,12 @@ function toggleBlueBackground(elem){
 	document.getElementById("box2").classList.remove("tan");
 	document.getElementById("box3").classList.remove("tan");
 	document.getElementById("box4").classList.remove("tan");
+	document.getElementById("box5").classList.remove("tan");
+	document.getElementById("box6").classList.remove("tan");
 	document.getElementById("box1").innerHTML = " ";
 	document.getElementById("box2").innerHTML = " ";
 	document.getElementById("box3").innerHTML = " ";
 	document.getElementById("box4").innerHTML = " ";
+	document.getElementById("box5").innerHTML = " ";
+	document.getElementById("box6").innerHTML = " ";
 }
