@@ -35,6 +35,36 @@ function makeNormal(e){
 	e.classList.toggle("hover");
 }
 
+function showText1(elem){
+	document.getElementById("box1").classList.toggle("tan");
+	elem.innerHTML = "Neon Tetras";
+}
+
+function showText2(elem){
+	document.getElementById("box2").classList.toggle("tan");
+	elem.innerHTML = "Golden Tetras";
+}
+
+function showText3(elem){
+	document.getElementById("box3").classList.toggle("tan");
+	elem.innerHTML = "Blue Diamond Shrimp";
+}
+
+function showText4(elem){
+	document.getElementById("box4").classList.toggle("tan");
+	elem.innerHTML = "Mandarin Shrimp";
+}
+
+function showText5(elem){
+	document.getElementById("box4").classList.toggle("tan");
+	elem.innerHTML = "Cherry Shrimp";
+}
+
+function showText6(elem){
+	document.getElementById("box4").classList.toggle("tan");
+	elem.innerHTML = "Crystal Shrimp";
+}
+
 function toggleBlueBackground(elem){
 	document.getElementById("box1").classList.remove("opaque");
 	document.getElementById("box2").classList.remove("opaque1");
