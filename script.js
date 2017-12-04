@@ -36,12 +36,12 @@ function makeNormal(e){
 }
 
 function toggleBlueBackground(elem){
-	document.getElementById("box1").classList.remove("tan");
-	document.getElementById("box2").classList.remove("tan");
-	document.getElementById("box3").classList.remove("tan");
-	document.getElementById("box4").classList.remove("tan");
-	document.getElementById("box5").classList.remove("tan");
-	document.getElementById("box6").classList.remove("tan");
+	document.getElementById("box1").classList.remove("opaque");
+	document.getElementById("box2").classList.remove("opaque1");
+	document.getElementById("box3").classList.remove("opaque2");
+	document.getElementById("box4").classList.remove("opaque3");
+	document.getElementById("box5").classList.remove("opaque4");
+	document.getElementById("box6").classList.remove("opaque5");
 	document.getElementById("box1").innerHTML = " ";
 	document.getElementById("box2").innerHTML = " ";
 	document.getElementById("box3").innerHTML = " ";
