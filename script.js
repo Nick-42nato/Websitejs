@@ -34,3 +34,14 @@ function makeHover(e){
 function makeNormal(e){
 	e.classList.toggle("hover");
 }
+
+function toggleBlueBackground(elem){
+	document.getElementById("box1").classList.remove("tan");
+	document.getElementById("box2").classList.remove("tan");
+	document.getElementById("box3").classList.remove("tan");
+	document.getElementById("box4").classList.remove("tan");
+	document.getElementById("box1").innerHTML = " ";
+	document.getElementById("box2").innerHTML = " ";
+	document.getElementById("box3").innerHTML = " ";
+	document.getElementById("box4").innerHTML = " ";
+}
