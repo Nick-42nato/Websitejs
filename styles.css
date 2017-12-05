@@ -112,7 +112,7 @@ background-color: #393939;
 margin:0;
 border: 30px solid #008BB3;
 }
-/*start of fishtank code from codepen.io*/
+
 .fish_body {
     background: #FF1493; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#FF1493, grey); /* For Safari 5.1 to 6.0 */
@@ -880,7 +880,7 @@ iframe{
   height: 1px;
   display: none;
 }
-/*End of fishtank code from codepen.io*/
+
 @media screen and (max-width: 500px) {
     .box {
 	width: 50%;
