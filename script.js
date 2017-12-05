@@ -27,13 +27,17 @@ function makeOpaque5(e){
 	e.classList.toggle("opaque5");
 	elem.innerHTML = "Crystal red Shrimp";
 }
+//jscript code allows the boxes to show an image when clicked on//
 
 function makeHover(e){
 	e.classList.toggle("hover");
 }
+
+
 function makeNormal(e){
 	e.classList.toggle("hover");
 }
+//enables the hover feature//
 
 function showText1(elem){
 	document.getElementById("box1").classList.toggle("tan");
@@ -64,7 +68,8 @@ function showText6(elem){
 	document.getElementById("box4").classList.toggle("tan");
 	elem.innerHTML = "Crystal Shrimp";
 }
-
+//my try at showing text when you click on each box// 
+//same as below//
 function toggleBlueBackground(elem){
 	document.getElementById("box1").classList.remove("opaque");
 	document.getElementById("box2").classList.remove("opaque1");
