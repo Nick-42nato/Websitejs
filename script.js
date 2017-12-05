@@ -40,32 +40,32 @@ function makeNormal(e){
 //enables the hover feature//
 
 function showText1(elem){
-	document.getElementById("box1").classList.toggle("tan");
+	document.getElementById("box1").classList.toggle("opaque");
 	elem.innerHTML = "Neon Tetras";
 }
 
 function showText2(elem){
-	document.getElementById("box2").classList.toggle("tan");
+	document.getElementById("box2").classList.toggle("opaque1");
 	elem.innerHTML = "Golden Tetras";
 }
 
 function showText3(elem){
-	document.getElementById("box3").classList.toggle("tan");
+	document.getElementById("box3").classList.toggle("opaque2");
 	elem.innerHTML = "Blue Diamond Shrimp";
 }
 
 function showText4(elem){
-	document.getElementById("box4").classList.toggle("tan");
+	document.getElementById("box4").classList.toggle("opaque3");
 	elem.innerHTML = "Mandarin Shrimp";
 }
 
 function showText5(elem){
-	document.getElementById("box4").classList.toggle("tan");
+	document.getElementById("box4").classList.toggle("opaque4");
 	elem.innerHTML = "Cherry Shrimp";
 }
 
 function showText6(elem){
-	document.getElementById("box4").classList.toggle("tan");
+	document.getElementById("box4").classList.toggle("opaque5");
 	elem.innerHTML = "Crystal Shrimp";
 }
 //my try at showing text when you click on each box// 
