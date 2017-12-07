@@ -5,13 +5,7 @@
 	height: inherit;
 }
 
-.neon{
-	color:#fff;
-}
 
-.txt-hide{
-	visibility: hidden;
-}
 
 img {
 	height: 35%;
@@ -906,4 +900,12 @@ iframe{
 	opaque3 {
 		object-fit: contain;
 	}
+}
+
+.neon{
+	color:#fff;
+}
+
+.txt-hide{
+	visibility: hidden;
 }
