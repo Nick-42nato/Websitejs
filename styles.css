@@ -5,7 +5,13 @@
 	height: inherit;
 }
 
+.neon{
+	color:#fff;
+}
 
+.txt-hide{
+	visibility:hidden;
+}
 
 img {
 	height: 35%;
