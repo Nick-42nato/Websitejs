@@ -1,6 +1,6 @@
 function makeOpaque(e){
 	e.classList.toggle("opaque");
-	elem.innerHTML = "Neon Tetras";
+	document.getElementById("neonText").classList.toggle("txt-hide");
 }
 
 function makeOpaque1(e){
