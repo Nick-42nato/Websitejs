@@ -5,27 +5,27 @@ function makeOpaque(e){
 
 function makeOpaque1(e){
 	e.classList.toggle("opaque1");
-	document.getElementById("neonText").classList.toggle("txt-hide");
+	document.getElementById("goldText").classList.toggle("txt-hide");
 }
 
 function makeOpaque2(e){
 	e.classList.toggle("opaque2");
-	document.getElementById("neonText").classList.toggle("txt-hide");
+	document.getElementById("blueText").classList.toggle("txt-hide");
 }
 
 function makeOpaque3(e){
 	e.classList.toggle("opaque3");
-	document.getElementById("neonText").classList.toggle("txt-hide");
+	document.getElementById("mandarinText").classList.toggle("txt-hide");
 }
 
 function makeOpaque4(e){
 	e.classList.toggle("opaque4");
-	document.getElementById("neonText").classList.toggle("txt-hide");
+	document.getElementById("cherryText").classList.toggle("txt-hide");
 }
 
 function makeOpaque5(e){
 	e.classList.toggle("opaque5");
-	document.getElementById("neonText").classList.toggle("txt-hide");
+	document.getElementById("crystalText").classList.toggle("txt-hide");
 }
 //jscript code allows the boxes to show an image when clicked on//
 
