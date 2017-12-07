@@ -5,27 +5,27 @@ function makeOpaque(e){
 
 function makeOpaque1(e){
 	e.classList.toggle("opaque1");
-	elem.innerHTML = "Golden tetras";
+	document.getElementById("neonText").classList.toggle("txt-hide");
 }
 
 function makeOpaque2(e){
 	e.classList.toggle("opaque2");
-	elem.innerHTML = "Diamond Blue Shrimp";
+	document.getElementById("neonText").classList.toggle("txt-hide");
 }
 
 function makeOpaque3(e){
 	e.classList.toggle("opaque3");
-	elem.innerHTML = "Mandarin Shrimp";
+	document.getElementById("neonText").classList.toggle("txt-hide");
 }
 
 function makeOpaque4(e){
 	e.classList.toggle("opaque4");
-	elem.innerHTML = "Cherry Shrimp";
+	document.getElementById("neonText").classList.toggle("txt-hide");
 }
 
 function makeOpaque5(e){
 	e.classList.toggle("opaque5");
-	elem.innerHTML = "Crystal red Shrimp";
+	document.getElementById("neonText").classList.toggle("txt-hide");
 }
 //jscript code allows the boxes to show an image when clicked on//
 
@@ -40,30 +40,6 @@ function makeNormal(e){
 //enables the hover feature//
 
 
-function showText2(elem){
-	document.getElementById("box2").classList.toggle("opaque1");
-	elem.innerHTML = "Golden Tetras";
-}
-
-function showText3(elem){
-	document.getElementById("box3").classList.toggle("opaque2");
-	elem.innerHTML = "Blue Diamond Shrimp";
-}
-
-function showText4(elem){
-	document.getElementById("box4").classList.toggle("opaque3");
-	elem.innerHTML = "Mandarin Shrimp";
-}
-
-function showText5(elem){
-	document.getElementById("box4").classList.toggle("opaque4");
-	elem.innerHTML = "Cherry Shrimp";
-}
-
-function showText6(elem){
-	document.getElementById("box4").classList.toggle("opaque5");
-	elem.innerHTML = "Crystal Shrimp";
-}
 //my try at showing text when you click on each box// 
 //same as below//
 function toggleBlueBackground(elem){
