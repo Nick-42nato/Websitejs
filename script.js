@@ -39,10 +39,6 @@ function makeNormal(e){
 }
 //enables the hover feature//
 
-function showText1(elem){
-	document.getElementById("box1").classList.toggle("opaque");
-	elem.innerHTML = "Neon Tetras";
-}
 
 function showText2(elem){
 	document.getElementById("box2").classList.toggle("opaque1");
