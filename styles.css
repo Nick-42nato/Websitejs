@@ -910,7 +910,7 @@ iframe{
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .box {
 	width: 50%;
 	height: 20%;
