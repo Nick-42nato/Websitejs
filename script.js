@@ -1,3 +1,4 @@
+//txt-hide code help from Eddie---allows text to hide or become visible on click.//
 function makeOpaque(e){
 	e.classList.toggle("opaque");
 	document.getElementById("neonText").classList.toggle("txt-hide");
@@ -39,9 +40,7 @@ function makeNormal(e){
 }
 //enables the hover feature//
 
-
-//my try at showing text when you click on each box// 
-//same as below//
+//below is my attempt at code to reset all the bozes and auto music on click of a button//
 function toggleBlueBackground(elem){
 	document.getElementById("box1").classList.remove("opaque");
 	document.getElementById("box2").classList.remove("opaque1");
