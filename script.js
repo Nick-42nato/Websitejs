@@ -40,18 +40,4 @@ function makeNormal(e){
 }
 //enables the hover feature//
 
-//below is my attempt at code to reset all the bozes and auto music on click of a button//
-function toggleBlueBackground(elem){
-	document.getElementById("box1").classList.remove("opaque");
-	document.getElementById("box2").classList.remove("opaque1");
-	document.getElementById("box3").classList.remove("opaque2");
-	document.getElementById("box4").classList.remove("opaque3");
-	document.getElementById("box5").classList.remove("opaque4");
-	document.getElementById("box6").classList.remove("opaque5");
-	document.getElementById("box1").innerHTML = " ";
-	document.getElementById("box2").innerHTML = " ";
-	document.getElementById("box3").innerHTML = " ";
-	document.getElementById("box4").innerHTML = " ";
-	document.getElementById("box5").innerHTML = " ";
-	document.getElementById("box6").innerHTML = " ";
-}
+
