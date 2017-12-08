@@ -914,6 +914,7 @@ iframe{
     .box {
 	width: 50%;
 	height: 20%;
+	margin: left;
 	}    
 	.flex-container {
 		width:100vw;
