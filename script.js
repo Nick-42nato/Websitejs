@@ -6,7 +6,7 @@ function makeOpaque(e){
 
 function makeOpaque1(e){
 	e.classList.toggle("opaque1");
-	document.getElementById("box2").classList.toggle("txt-hide");
+	document.getElementById("goldText").classList.toggle("txt-hide");
 }
 
 function makeOpaque2(e){
